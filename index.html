@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Time tracking dashboard</title>
+</head>
+<body>
+<main class="container">
+  <article class="col col-1">
+    <div> <!-- Container for the image -->
+      <img src="./images/image-jeremy.png" alt="" class="jeremy">
+      <p id="report">Report for</p>
+      <p id="jeremy">Jeremy <br> Robson</p>
+    </div> 
+    <ul>
+      <li><button id="daily">Daily</button></li> <!-- Buttons -->
+      <li><button id="weekly">Weekly</button></li>
+      <li><button id="monthly">Monthly</button></li>
+    </ul>
+    </article>
+  <article class="col col-2">
+    <div class="svg"><img src="./images/icon-work.svg" alt=""></div> <!-- Icon svg -->
+    <div class="info">
+      <p class="activity">Work <img src="./images/icon-ellipsis.svg" alt=""></p>
+        <p id="workCurrent" class="current">5hrs</p> <!-- displayed time -->
+        <p id="workPrevious" class="previous">Last day - 7hrs</p> <!-- displayed time -->
+  </article>
+  <article class="col col-3">
+    <div class="svg"><img src="./images/icon-play.svg" alt=""></div> <!-- Icon svg -->
+    <div class="info">
+      <p class="activity">Play <img src="./images/icon-ellipsis.svg" alt=""></p>
+        <p id="playCurrent" class="current">1hrs</p> 
+        <p id="playPrevious" class="previous">Last day - 2hrs</p> 
+    </div>
+  </article>
+  <article class="col col-4">
+    <div class="svg"><img src="./images/icon-study.svg" alt=""></div> <!-- Icon svg -->
+    <div class="info">
+      <p class="activity">Study <img src="./images/icon-ellipsis.svg" alt=""></p> <!-- Icon svg -->
+        <p id="studyCurrent" class="current">0hrs</p>
+        <p id="studyPrevious" class="previous">Last day - 1hrs</p>
+   </div>
+  </article>
+  <article class="col col-5">
+    <div class="svg"><img src="./images/icon-exercise.svg" alt=""></div> <!-- Icon svg -->
+    <div class="info">
+      <p class="activity">Exercise <img src="./images/icon-ellipsis.svg" alt=""></p> <!-- Icon svg -->
+        <p id="exerciseCurrent" class="current">1hrs</p> 
+        <p id="exercisePrevious" class="previous">Last day - 1hrs</p> 
+    </div>
+  </article>
+  <article class="col col-6">
+    <div class="svg"><img src="./images/icon-social.svg" alt=""></div> <!-- Icon svg -->
+    <div class="info">
+      <p class="activity">Social <img src="./images/icon-ellipsis.svg" alt=""></p> <!-- Icon svg -->
+      <p id="socialCurrent" class="current">1hrs</p> 
+      <p id="socialPrevious" class="previous">Last day - 3hrs</p> 
+  </div>
+  </article>
+  <article class="col col-7">
+    <div class="svg"><img src="./images/icon-self-care.svg" alt=""></div> <!-- Icon svg -->
+    <div class="info">
+      <p class="activity">Self care <img src="./images/icon-ellipsis.svg" alt=""></p> <!-- Icon svg -->
+        <p id="selfcareCurrent" class="current">0hrs</p>
+        <p id="selfcarePrevious" class="previous">Last day - 1hrs</p>
+    </div>
+  </article>
+  <script src="timeframe.js"></script>
+
+</main>
+</body>
+</html>
